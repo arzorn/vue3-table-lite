@@ -14,7 +14,11 @@
 							</div>
 						</div>
 						<div class="table-responsive-sm">
-							<table class="vtl-table table stripped table-hover" id="dataTables-example" ref="localTable">
+							<table
+								class="vtl-table table table-striped striped table-hover"
+								id="dataTables-example"
+								ref="localTable"
+							>
 								<thead class="vtl-thead thead-dark">
 									<tr class="vtl-thead-tr">
 										<th v-if="hasCheckbox" class="vtl-thead-th checkbox-th">

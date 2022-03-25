@@ -13,7 +13,7 @@
 								<span style="color: white">Loading...</span>
 							</div>
 						</div>
-						<div class="table-responsive-sm">
+						<div class="table-responsive">
 							<table
 								class="vtl-table table table-striped striped table-hover"
 								id="dataTables-example"

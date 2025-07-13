@@ -715,6 +715,8 @@ export default defineComponent({
         movePage,
         nextPage,
         stringFormat,
+        searchTerm,
+        searchFormSubmited,
       };
     } else {
       return {
@@ -727,6 +729,8 @@ export default defineComponent({
         movePage,
         nextPage,
         stringFormat,
+        searchTerm,
+        searchFormSubmited,
       };
     }
   },

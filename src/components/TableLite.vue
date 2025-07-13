@@ -425,13 +425,6 @@ export default defineComponent({
 
         const searchTerm = ref("")
         if (props.hasSearchBox) {
-            /**
-             * 重新渲染前執行 (Execute before re-rendering)
-             */
-            onBeforeUpdate(() => {
-                searchTerm.value = "";
-            });
-
             watch(
                 () => searchTerm.value,
                 (newValue) => {

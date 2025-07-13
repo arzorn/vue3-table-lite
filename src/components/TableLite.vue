@@ -3,7 +3,7 @@
         <div class="vtl-title card-header" v-if="title">{{ title }}</div>
         <div class="card-body">
             <p class="card-title"></p>
-            <form @submit.prevent="searchFormSubmited" class="row search-form">
+            <form v-if="hasSearchBox" @submit.prevent="searchFormSubmited" class="row search-form">
                 <div class="mb-3 row">
                     <label for="search-by" class="col-sm-2 col-form-label">Search By:</label>
                     <div class="col-sm-4">

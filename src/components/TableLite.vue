@@ -201,7 +201,7 @@ export default defineComponent({
         },
         hasSearchBox: {
             type: Boolean,
-            require: true,
+            require: false,
         },
         // 有無Checkbox (Presence of Checkbox)
         hasCheckbox: {
